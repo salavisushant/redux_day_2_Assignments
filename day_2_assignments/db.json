@@ -1,0 +1,14 @@
+{
+  "todos": [
+    {
+      "status": false,
+      "title": "Hello",
+      "id": 1
+    },
+    {
+      "status": false,
+      "title": "LEARN REACT",
+      "id": 2
+    }
+  ]
+}

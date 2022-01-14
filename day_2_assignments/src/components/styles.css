@@ -1,0 +1,91 @@
+.InputBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;
+  margin: auto;
+
+}
+.main h3 {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.InputBox>button {
+  width: 70px;
+  height: auto;
+  margin-right: 10%;
+  border-radius: 10px;
+}
+
+.InputBox > input {
+  border:none;
+  border:2px solid black;
+  border-radius:10px
+}
+
+.App {
+  text-align: center;
+}
+
+.cont{
+  margin-left: 20%;
+  margin-top: 1%;
+  width: 50%;
+  background-color:aquamarine;
+}
+
+.cont>div>button{
+  border: none;
+  background-color:blueviolet;
+  color: white;
+} 
+
+.todolist {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+  background-color:#3ca2a2;
+}
+.home {
+  display: flex;
+  gap: 20%;
+  justify-content: center;
+}
+
+.listOfTodo {
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.oneTodo {
+  width: 20%;
+  color: #FFFF;
+}
+.btn {
+  width: 100px;
+  margin-top: 10px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background-color:#361f2d;
+  color: #FFFF;
+  border: 1px solid #FFFF;
+  font: size 19px;
+}
+#editCont {
+  height: 120px;
+  width: 60%;
+  margin-left: 20%;
+  display: none;
+  background-color:#e8bf56;
+}
+
+.edit-input{
+  width: 50%;
+  height:20px;
+  background-color:#e8bf56;
+  border: none;
+  border: 2px solid black;
+}
